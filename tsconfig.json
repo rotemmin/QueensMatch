@@ -26,7 +26,8 @@
       "@styles/*": ["styles/*"],
       "@public/*": ["public/*"],
       "@contexts/*": ["contexts/*"],
-      "@api/*": ["app/api/*"]
+      "@api/*": ["app/api/*"],
+      "@/types": ["types/index.ts"]
     }
   },
   "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts", "next.config.mjs"],
