@@ -1,9 +1,20 @@
-import FirebaseTest from "@/components/firebaseTest";
+"use client";
+import Link from "next/link";
 
-export default function HomePage() {
+const HomePage = () => {
   return (
-    <div className="p-4">
-      <FirebaseTest />
+    <div>
+      <h1>Welcome to Queens Matcher</h1>
+      <div>
+        <Link href="/login">
+          <button>Login</button>
+        </Link>
+        <Link href="/signup">
+          <button>Sign Up</button>
+        </Link>
+      </div>
     </div>
   );
-}
+};
+
+export default HomePage;

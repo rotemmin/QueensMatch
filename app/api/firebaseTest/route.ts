@@ -1,5 +1,5 @@
 import { NextResponse } from "next/server";
-import { addTestDoc, fetchTestDocs } from "@/lib/firebaseTest";
+import { addTestDoc, fetchTestDocs } from "@/lib/firebaseConnection";
 
 export async function GET() {
   try {
