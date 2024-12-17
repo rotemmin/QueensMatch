@@ -6,10 +6,10 @@ const HomePage = () => {
     <div>
       <h1>Welcome to Queens Matcher</h1>
       <div>
-        <Link href="/login">
+        <Link href="/auth/login">
           <button>Login</button>
         </Link>
-        <Link href="/signup">
+        <Link href="/auth/signup">
           <button>Sign Up</button>
         </Link>
       </div>
